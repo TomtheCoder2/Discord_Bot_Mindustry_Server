@@ -1,0 +1,42 @@
+{
+    "title": "**THE SERVER RULES**",
+    "fields": [
+        {
+            "name": "Rule 1",
+            "value": "Do not post anything that is in violation of EU and US laws, or the community guidelines of Discord(NSFW etc)."
+        },
+        {
+            "name": "Rule 2",
+            "value": "Do not post anything that is generally considered disturbing or inappropriate."
+        },
+        {
+            "name": "Rule 3",
+            "value": "Be nice, treat others with respect and be polite, no toxic allowed."
+        },
+        {
+            "name": "Rule 4",
+            "value": "No bullying. Jokes are okay, but don't take it too far and when someone says you should stop then stop."
+        },
+        {
+            "name": "Rule 5",
+            "value": "No self-promotion, advertising."
+        },
+        {
+            "name": "Rule 6",
+            "value": "No spam."
+        },
+        {
+            "name": "Rule 7",
+            "value": "Trying to get around bans by making more accounts is not allowed."
+        },
+        {
+            "name": "Rule 8",
+            "value": "Moderators have the right to kick and ban people if they push the limits too far."
+        },
+        {
+            "name": "Rule 9",
+            "value": "Follow the rules of the channel you are on."
+        }
+    ],
+    "color": "#ff0000"
+}
