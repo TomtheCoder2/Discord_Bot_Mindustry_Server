@@ -1,13 +1,13 @@
 const Brainfuck = require('brainfuck-node');
-const brainfuck_generator = require('C:/Users/janwi/Online_Mindustry_Community_bot/utility/brainfuck_generator')
+const brainfuck_generator = require('../../utility/brainfuck_generator')
 options = {
     "maxSteps": "1000000"
 }
 const brainfuck = new Brainfuck(options);
 const fs = require('fs')
-code = fs.readFileSync('C:/Users/janwi/Online_Mindustry_Community_bot/normal_commands/examples/bf_example.json')
+code = fs.readFileSync('normal_commands/examples/bf_example.json')
 code = JSON.parse(code).code;
-game = fs.readFileSync('C:/Users/janwi/Online_Mindustry_Community_bot/normal_commands/examples/lol.json')
+game = fs.readFileSync('normal_commands/examples/lol.json')
 game = JSON.parse(game).code;
 module.exports = {
     name: 'brainfuck',
