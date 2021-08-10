@@ -168,7 +168,6 @@ client.ws.on('INTERACTION_CREATE', async interaction => {
 })
 
 
-
 // 864903369188180048
 
 // client.api.applications(client.user.id).guilds('guild id').commands.post({
@@ -177,30 +176,32 @@ client.ws.on('INTERACTION_CREATE', async interaction => {
 //         description: 'ping pong!'
 //     }
 // })
-client.on('messageCreate', async message => {
-    console.log("messageCreate")
-    if (!client.application?.owner) await client.application?.fetch();
-
-    if (message.content.toLowerCase() === '!deploy' && message.author.id === client.application?.owner.id) {
-        const data = {
-            name: 'ping',
-            description: 'Replies with Pong!',
-        };
-
-        const command = await client.application?.commands.create(data);
-        console.log(command);
-    }
-});
+// client.on('messageCreate', async message => {
+//     console.log("messageCreate")
+//     if (!client.application?.owner) await client.application?.fetch();
+//
+//     if (message.content.toLowerCase() === '!deploy' && message.author.id === client.application?.owner.id) {
+//         const data = {
+//             name: 'ping',
+//             description: 'Replies with Pong!',
+//         };
+//
+//         const command = await client.application?.commands.create(data);
+//         console.log(command);
+//     }
+// });
 
 client.on("message", (message) => {
-    var server = message.guild.id;
-    console.log(server)
-    // prefix = prefixJSON.split(" ")[0]
-    if ((!message.content.startsWith(prefix) && !message.content.startsWith(prefix_unofficial) && !message.attachments.first()) || message.author.bot) return;
-    if (message.channel.id !== "864922006565552148" && message.channel.id !== "864879809884586054" && message.channel.id !== "864903369188180048" && message.channel.id !== "720262538910105620") {
-        if (message.attachments.first()) { return; }
-        const msg = new Discord.MessageEmbed().setColor("#ff0000")
-            .addField("**Wrong chat!**", "Please send your bot commands in the <#864879809884586054> chat")
+        var server = message.guild.id;
+        console.log(server)
+        // prefix = prefixJSON.split(" ")[0]
+        if ((!message.content.startsWith(prefix) && !message.content.startsWith(prefix_unofficial) && !message.attachments.first()) || message.author.bot) return;
+        if (message.channel.id !== "864922006565552148" && message.channel.id !== "864879809884586054" && message.channel.id !== "864903369188180048" && message.channel.id !== "720262538910105620") {
+            if (message.attachments.first()) {
+                return;
+            }
+            const msg = new Discord.MessageEmbed().setColor("#ff0000")
+                .addField("**Wrong chat!**", "Please send your bot commands in the <#864879809884586054> chat")
         message.channel.send(msg);
         return;
     }
