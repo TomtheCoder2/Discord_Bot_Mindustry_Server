@@ -1,0 +1,16 @@
+{
+    "title": "New Command!",
+    "fields": [
+        {
+            "name": "The say command:",
+            "value": "There is a new command for you @Moderator : the !say command, you can now say things with this command, but you need to write it with the JSON encoding, for an example try `!say example`."
+        },
+        {
+            "name": "And a Question:",
+            "value": "do you want to change the prefix of the bot from ` ! ` to ` / `?\nJust reply in #staff-chat"
+        }
+    ],
+    "footer": {
+        "text": "sorry for my bad english"
+    }
+}

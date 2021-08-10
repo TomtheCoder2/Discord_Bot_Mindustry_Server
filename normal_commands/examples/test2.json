@@ -1,0 +1,21 @@
+{
+    "color": "#00FFFF",
+    "title": "New Bot and Commands!",
+    "fields": [
+        {
+            "name": "The say command:",
+            "value": "There is a new bot on this server, you can now use the new commands ping, sus, unsus, help!."
+        },
+        {
+            "name": "Bugs:",
+            "value": "Also, if you find any bug, report it in #bug-report!"
+        },
+        {
+            "name": "Author",
+            "value": "-@ClashGone#3200, Moderator"
+        }
+    ],
+    "footer": {
+        "text": "~~there are many bugs~~"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Awesome Pictures:",
+    "description": "These are awesome Pictures from all over the world ([links](https://www.youtube.com/watch?v=dQw4w9WgXcQ))",
+    "fields": [
+        {
+            "name": "Bridge",
+            "value": "This is a awesome picture of a bridge ([link](https://www.youtube.com/watch?v=dQw4w9WgXcQ))",
+            "image": {
+                "url": "https://www.befunky.com/images/wp/wp-2014-08-milky-way-1023340_1280.jpg?auto=webp&format=jpg&width=1150&crop=16:9"
+            }
+        }
+    ],
+    "thumbnail": {
+        "url": "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+    },
+    "image": {
+        "url": "    https://c4.wallpaperflare.com/wallpaper/736/777/161/awesome-bridge-fff-wallpaper-preview.jpg"
+    },
+    "footer": {
+        "text": "If you want to see more awesome pictures, just search on google: awesome pictures",
+        "icon_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43c6011c-2f51-45bf-94c8-d6e928336cac/d5d7zu3-9b0758b6-0183-48c6-a14b-6334de9d51ae.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzYzYwMTFjLTJmNTEtNDViZi05NGM4LWQ2ZTkyODMzNmNhY1wvZDVkN3p1My05YjA3NThiNi0wMTgzLTQ4YzYtYTE0Yi02MzM0ZGU5ZDUxYWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t5yXBFeNwLJUIkVSAS-R4cr4H6U1UB6TpwjZyWIX_m4"
+    }
+}

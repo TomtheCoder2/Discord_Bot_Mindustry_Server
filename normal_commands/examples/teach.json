@@ -1,0 +1,16 @@
+{
+    "title": "this is a title",
+    "description": "this is the description of the embed",
+    "fields": [
+        {
+            "name": "this is the name of a field",
+            "value": "btw dont forget the , after each element",
+            "inline": "false"
+        },
+        {
+            "name": "this is a field with inline:true",
+            "value": "this isnt really important lol",
+            "inline": "true"
+        }
+    ]
+}

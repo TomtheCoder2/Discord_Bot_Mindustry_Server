@@ -1,0 +1,19 @@
+{
+    "title": "Mindustry Pictures:",
+    "description": "These are awesome Pictures from Mindustry ([links](https://www.youtube.com/watch?v=dQw4w9WgXcQ))",
+    "fields": [
+        {
+            "name": "Bad Design",
+            "value": "This is a really bad power design ([link](https://media.discordapp.net/attachments/735966126667858001/859526902368567326/unknown.png))"
+        }
+    ],
+    "thumbnail": {
+        "url": "https://i.redd.it/xdcs8w1t86u51.png"
+    },
+    "image": {
+        "url": "https://media.discordapp.net/attachments/735966126667858001/859526902368567326/unknown.png"
+    },
+    "footer": {
+        "text": "Random image from the internet"
+    }
+}
